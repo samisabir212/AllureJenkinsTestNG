@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login Test Suite" duration-ms="55913" started-at="2019-06-08T15:24:55Z" finished-at="2019-06-08T15:25:50Z">
+    <groups>
+    </groups>
+    <test name="Login Tests" duration-ms="55913" started-at="2019-06-08T15:24:55Z" finished-at="2019-06-08T15:25:50Z">
+      <class name="com.qa.CapsuleCRMTests.LoginTests">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="beforeSuite" is-config="true" duration-ms="156" started-at="2019-06-08T11:24:54Z" finished-at="2019-06-08T11:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ssabir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforClass()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="beforClass" is-config="true" duration-ms="1" started-at="2019-06-08T11:24:55Z" finished-at="2019-06-08T11:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="beforeMethod" is-config="true" duration-ms="3170" started-at="2019-06-08T11:24:55Z" finished-at="2019-06-08T11:24:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACTIVE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="loginWithInvalidCredentials" duration-ms="11482" started-at="2019-06-08T11:24:58Z" description="verifying error message when logging in with invalid username and invalid password" finished-at="2019-06-08T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="afterMethod" is-config="true" duration-ms="98" started-at="2019-06-08T11:25:09Z" finished-at="2019-06-08T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="beforeMethod" is-config="true" duration-ms="1093" started-at="2019-06-08T11:25:09Z" finished-at="2019-06-08T11:25:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACTIVE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithInvalidPassword()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="loginWithInvalidPassword" duration-ms="6618" started-at="2019-06-08T11:25:10Z" description="verifying error message when logging in with invalid password" finished-at="2019-06-08T11:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="afterMethod" is-config="true" duration-ms="115" started-at="2019-06-08T11:25:17Z" finished-at="2019-06-08T11:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="beforeMethod" is-config="true" duration-ms="1335" started-at="2019-06-08T11:25:17Z" finished-at="2019-06-08T11:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACTIVE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithInvalidUsername()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="loginWithInvalidUsername" duration-ms="24311" started-at="2019-06-08T11:25:19Z" description="verifying error message when logging in with invalid username" finished-at="2019-06-08T11:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsername -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="afterMethod" is-config="true" duration-ms="96" started-at="2019-06-08T11:25:43Z" finished-at="2019-06-08T11:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="beforeMethod" is-config="true" duration-ms="1127" started-at="2019-06-08T11:25:43Z" finished-at="2019-06-08T11:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ACTIVE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="successfulLogin" duration-ms="6273" started-at="2019-06-08T11:25:44Z" description="verifying a successful login with valid credentials" finished-at="2019-06-08T11:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="afterMethod" is-config="true" duration-ms="79" started-at="2019-06-08T11:25:50Z" finished-at="2019-06-08T11:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="afterClass" is-config="true" duration-ms="64" started-at="2019-06-08T11:25:50Z" finished-at="2019-06-08T11:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.CapsuleCRMTests.LoginTests@4d411036]" name="afterSuite" is-config="true" duration-ms="4" started-at="2019-06-08T11:25:55Z" finished-at="2019-06-08T11:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.CapsuleCRMTests.LoginTests -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Login Test Suite -->
+</testng-results>
